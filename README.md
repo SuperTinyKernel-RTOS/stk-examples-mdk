@@ -43,10 +43,13 @@ STK provides ready-to-use examples for popular development boards. Follow these 
 |:---------------------|:------------------------------|:------------------------------------------|
 | **STM32F407G-DISC1** | `stm\blinky-stm32f407g-disc1` | Basic LED toggle using STK tasks/threads. |
 
+> **Note:** Using GCC/Eclipse, or MCUXpresso? Examples for these environments are located in the main STK repository: [STK Main Repo - Examples](https://github.com/SuperTinyKernel-RTOS/stk/tree/main/build/example/project)
+
 ---
 
 ## 🔗 Resources
 
 * **Project:** [SuperTinyKernel RTOS on GitHub](https://github.com/SuperTinyKernel-RTOS)
+* **Core Kernel:** [Repo](https://github.com/SuperTinyKernel-RTOS/stk)
 * **Documentation:** [STK API](https://stk.neutroncode.com)
 * **Issue Tracker:** [Report a bug](https://github.com/SuperTinyKernel-RTOS/stk-examples-mdk/issues)
