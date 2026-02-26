@@ -1,21 +1,15 @@
-# SuperTinyKernel™ RTOS
+# SuperTinyKernel™ RTOS examples for Arm Keil MDK/µVision
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform: Arm Cortex-M](https://img.shields.io/badge/Platform-Arm%20Cortex--M-blue.svg)](https://developer.arm.com/ip-products/processors/cortex-m)
 
-**SuperTinyKernel™ RTOS** (STK) is a minimalistic, high-performance RTOS designed for deeply embedded C/C++ applications. It prioritizes a tiny memory footprint and ultra-low latency, making it ideal for real-time tasks.
+**SuperTinyKernel™ RTOS** (STK) is a high-performance, deterministic, bare-metal C++ real-time operating system designed for resource-constrained embedded systems.
+
+> **Note:** This repository is related to examples configured exclusively for Arm Keil MDK/µVision. For details about SuperTinyKernel RTOS, visit its [project on GitHub](https://github.com/SuperTinyKernel-RTOS).
 
 ---
 
-## 🚀 Key STK Features
-
-* **Ultra-Lightweight:** Minimal RAM/Flash overhead, leaving more room for your application logic.
-* **High Performance:** Optimized context switching and interrupt handling.
-* **C/C++ Friendly:** Clean API designed for modern embedded development.
-
----
-
-## 🛠 Getting Started with Arm Keil MDK
+## 🛠 Getting Started with [Arm Keil MDK](https://www.keil.com/demo/eval/arm.htm)
 
 STK provides ready-to-use examples for popular development boards. Follow these steps to get up and running:
 
@@ -33,7 +27,7 @@ STK provides ready-to-use examples for popular development boards. Follow these 
     ```
 
 3.  **Build & Flash:**
-    Open the generated project in **Arm Keil MDK**, compile, and flash your board.
+    Open the generated project in **Arm Keil MDK**, compile, and flash your board. To reconfigure STM32 project use [**STM32CubeMX**](https://www.st.com/content/st_com/en/stm32cubemx.html).
 
 ---
 
@@ -49,7 +43,6 @@ STK provides ready-to-use examples for popular development boards. Follow these 
 
 ## 🔗 Resources
 
-* **Project:** [SuperTinyKernel RTOS on GitHub](https://github.com/SuperTinyKernel-RTOS)
-* **Core Kernel:** [Repo](https://github.com/SuperTinyKernel-RTOS/stk)
+* **Core:** [Repository](https://github.com/SuperTinyKernel-RTOS/stk)
 * **Documentation:** [STK API](https://stk.neutroncode.com)
 * **Issue Tracker:** [Report a bug](https://github.com/SuperTinyKernel-RTOS/stk-examples-mdk/issues)
