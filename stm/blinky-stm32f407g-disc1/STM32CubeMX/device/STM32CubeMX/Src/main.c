@@ -31,7 +31,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+extern void RunExample();
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -92,8 +92,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    /* USER CODE END WHILE */
 		RunExample();
+    /* USER CODE END WHILE */
+		
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
