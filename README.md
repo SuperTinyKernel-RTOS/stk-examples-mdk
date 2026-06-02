@@ -32,15 +32,16 @@ STK provides ready-to-use examples for popular development boards. Follow these 
    > **Note**: When project is regenerated make sure to uncomment `SVC_Handler`, `PendSV_Handler` and `SysTick_Handler` functions (or prefix function name with _) in `stm32f4xx_it.c` file. These ISR handlers are used by STK.
 
 4.  **Build & Flash:**
-    Open the generated project in **Arm Keil MDK**, compile, and flash your board. To reconfigure STM32 project use [**STM32CubeMX**](https://www.st.com/content/st_com/en/stm32cubemx.html).
+    Open the generated project `stm/blinky-stm32f407g-disc1/project.uvprojx` in **Arm Keil MDK**, compile, and flash your board. To reconfigure STM32 project use [**STM32CubeMX**](https://www.st.com/content/st_com/en/stm32cubemx.html) via Project → Manage Run-Time Environment → Device tree → STM32CubeMX.
 
 ---
 
 ## 📂 Supported Examples
 
-| Board                | Path                          | Description                               |
-|:---------------------|:------------------------------|:------------------------------------------|
-| **STM32F407G-DISC1** | `stm\blinky-stm32f407g-disc1` | Basic LED toggle using STK tasks/threads. |
+| Board                | Path                            | Description                               |
+|:---------------------|:--------------------------------|:------------------------------------------|
+| **STM32F407G-DISC1** | `stm\blinky-stm32f407g-disc1`   | Basic LED toggle using STK tasks/threads. |
+| **STM32F407G-DISC1** | `stm\blinky_c-stm32f407g-disc1` | Basic LED toggle using STK C API.         |
 
 > **Note:** Using GCC/Eclipse? Examples for these environments are located in [STK Main Repo - Examples](https://github.com/SuperTinyKernel-RTOS/stk/tree/main/build/example/project).
 
