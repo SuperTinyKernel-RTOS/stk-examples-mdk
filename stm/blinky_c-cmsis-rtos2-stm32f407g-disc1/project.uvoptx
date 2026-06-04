@@ -226,7 +226,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\src\build\example\blinky_c\example.c</PathWithFileName>
+      <PathWithFileName>.\src\build\example\blinky_c-cmsis-rtos2\example.c</PathWithFileName>
       <FilenameWithoutPath>example.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
@@ -238,8 +238,8 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\src\build\example\blinky_c\example.h</PathWithFileName>
-      <FilenameWithoutPath>example.h</FilenameWithoutPath>
+      <PathWithFileName>.\src\build\example\blinky_c-cmsis-rtos2\RTE_Components.h</PathWithFileName>
+      <FilenameWithoutPath>RTE_Components.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
@@ -926,7 +926,7 @@
   </Group>
 
   <Group>
-    <GroupName>Interop/C</GroupName>
+    <GroupName>Interop/CMSIS/RTOS2</GroupName>
     <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
@@ -938,80 +938,20 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\deps\interop\c\include\stk_c.h</PathWithFileName>
-      <FilenameWithoutPath>stk_c.h</FilenameWithoutPath>
+      <PathWithFileName>.\deps\interop\cmsis\rtos2\include\cmsis_os2.h</PathWithFileName>
+      <FilenameWithoutPath>cmsis_os2.h</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>
     <File>
       <GroupNumber>6</GroupNumber>
       <FileNumber>59</FileNumber>
-      <FileType>5</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\deps\interop\c\include\stk_c_memory.h</PathWithFileName>
-      <FilenameWithoutPath>stk_c_memory.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>60</FileNumber>
-      <FileType>5</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\deps\interop\c\include\stk_c_time.h</PathWithFileName>
-      <FilenameWithoutPath>stk_c_time.h</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>61</FileNumber>
       <FileType>8</FileType>
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\deps\interop\c\src\stk_c.cpp</PathWithFileName>
-      <FilenameWithoutPath>stk_c.cpp</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>62</FileNumber>
-      <FileType>8</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\deps\interop\c\src\stk_c_memory.cpp</PathWithFileName>
-      <FilenameWithoutPath>stk_c_memory.cpp</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>63</FileNumber>
-      <FileType>8</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\deps\interop\c\src\stk_c_sync.cpp</PathWithFileName>
-      <FilenameWithoutPath>stk_c_sync.cpp</FilenameWithoutPath>
-      <RteFlg>0</RteFlg>
-      <bShared>0</bShared>
-    </File>
-    <File>
-      <GroupNumber>6</GroupNumber>
-      <FileNumber>64</FileNumber>
-      <FileType>8</FileType>
-      <tvExp>0</tvExp>
-      <tvExpOptDlg>0</tvExpOptDlg>
-      <bDave2>0</bDave2>
-      <PathWithFileName>.\deps\interop\c\src\stk_c_time.cpp</PathWithFileName>
-      <FilenameWithoutPath>stk_c_time.cpp</FilenameWithoutPath>
+      <PathWithFileName>.\deps\interop\cmsis\rtos2\src\cmsis_os2_stk.cpp</PathWithFileName>
+      <FilenameWithoutPath>cmsis_os2_stk.cpp</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

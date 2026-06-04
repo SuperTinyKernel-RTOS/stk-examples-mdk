@@ -314,7 +314,7 @@
           </ArmAdsMisc>
           <Cads>
             <interw>1</interw>
-            <Optim>6</Optim>
+            <Optim>1</Optim>
             <oTime>0</oTime>
             <SplitLS>0</SplitLS>
             <OneElfS>1</OneElfS>
@@ -429,7 +429,7 @@
                   <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
-                  <IncludePath>.\src;.\deps\build\example\driver;.\deps\stk\include;.\deps\interop\c\include</IncludePath>
+                  <IncludePath>.\src;.\deps\build\example\driver;.\deps\stk\include;.\deps\interop\cmsis\rtos2\include</IncludePath>
                 </VariousControls>
               </Cads>
               <Aads>
@@ -461,12 +461,12 @@
             <File>
               <FileName>example.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\src\build\example\blinky_c\example.c</FilePath>
+              <FilePath>.\src\build\example\blinky_c-cmsis-rtos2\example.c</FilePath>
             </File>
             <File>
-              <FileName>example.h</FileName>
+              <FileName>RTE_Components.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\src\build\example\blinky_c\example.h</FilePath>
+              <FilePath>.\src\build\example\blinky_c-cmsis-rtos2\RTE_Components.h</FilePath>
             </File>
             <File>
               <FileName>retarget.c</FileName>
@@ -830,7 +830,7 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Interop/C</GroupName>
+          <GroupName>Interop/CMSIS/RTOS2</GroupName>
           <GroupOption>
             <CommonProperty>
               <UseCPPCompiler>0</UseCPPCompiler>
@@ -877,7 +877,7 @@
                   <MiscControls></MiscControls>
                   <Define></Define>
                   <Undefine></Undefine>
-                  <IncludePath>.\src;.\deps\stk\include;.\deps\interop\c\include</IncludePath>
+                  <IncludePath>.\src;.\deps\stk\include;.\deps\interop\cmsis\rtos2\include</IncludePath>
                 </VariousControls>
               </Cads>
               <Aads>
@@ -902,39 +902,14 @@
           </GroupOption>
           <Files>
             <File>
-              <FileName>stk_c.h</FileName>
+              <FileName>cmsis_os2.h</FileName>
               <FileType>5</FileType>
-              <FilePath>.\deps\interop\c\include\stk_c.h</FilePath>
+              <FilePath>.\deps\interop\cmsis\rtos2\include\cmsis_os2.h</FilePath>
             </File>
             <File>
-              <FileName>stk_c_memory.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\deps\interop\c\include\stk_c_memory.h</FilePath>
-            </File>
-            <File>
-              <FileName>stk_c_time.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\deps\interop\c\include\stk_c_time.h</FilePath>
-            </File>
-            <File>
-              <FileName>stk_c.cpp</FileName>
+              <FileName>cmsis_os2_stk.cpp</FileName>
               <FileType>8</FileType>
-              <FilePath>.\deps\interop\c\src\stk_c.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>stk_c_memory.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\deps\interop\c\src\stk_c_memory.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>stk_c_sync.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\deps\interop\c\src\stk_c_sync.cpp</FilePath>
-            </File>
-            <File>
-              <FileName>stk_c_time.cpp</FileName>
-              <FileType>8</FileType>
-              <FilePath>.\deps\interop\c\src\stk_c_time.cpp</FilePath>
+              <FilePath>.\deps\interop\cmsis\rtos2\src\cmsis_os2_stk.cpp</FilePath>
             </File>
           </Files>
         </Group>

@@ -38,10 +38,11 @@ STK provides ready-to-use examples for popular development boards. Follow these 
 
 ## 📂 Supported Examples
 
-| Board                | Path                            | Description                               |
-|:---------------------|:--------------------------------|:------------------------------------------|
-| **STM32F407G-DISC1** | `stm\blinky-stm32f407g-disc1`   | Basic LED toggle using STK tasks/threads. |
-| **STM32F407G-DISC1** | `stm\blinky_c-stm32f407g-disc1` | Basic LED toggle using STK C API.         |
+| Board                | Path                                        | Description                                                         |
+|:---------------------|:--------------------------------------------|:--------------------------------------------------------------------|
+| **STM32F407G-DISC1** | `stm\blinky-stm32f407g-disc1`               | Basic LED toggle using STK tasks/threads.                           |
+| **STM32F407G-DISC1** | `stm\blinky_c-stm32f407g-disc1`             | Basic LED toggle using STK C API.                                   |
+| **STM32F407G-DISC1** | `stm\blinky_c-cmsis-rtos2-stm32f407g-disc1` | Basic LED toggle using CMSIS-RTOS2 API via STK CMSIS-RTOS2 adapter. |
 
 > **Note:** Using GCC/Eclipse? Examples for these environments are located in [STK Main Repo - Examples](https://github.com/SuperTinyKernel-RTOS/stk/tree/main/build/example/project).
 
